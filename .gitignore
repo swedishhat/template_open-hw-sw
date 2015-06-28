@@ -1,36 +1,20 @@
-# Ignore list for Eagle, a PCB layout tool
+# Ignore list for Kicad, a PCB layout tool
 
-# Backup files
-*.s#?
-*.b#?
-*.l#?
+# Cache files
+*.mdc
 
-# Eagle project file
-# It contains a serial number and references to the file structure
-# on your computer.
-# comment the following line if you want to have your project file included.
-eagle.epf
+# Temporary files
+*.000
 
-# CAM files
-*.$$$
-*.cmp
-*.ly2
-*.l15
-*.sol
-*.plc
-*.stc
-*.sts
-*.crc
-*.crs
+# Backup Files
+*.bak
+*.bck
+*.kicad_pcb-bak
 
-*.dri
-*.drl
-*.gpi
-*.pls
+# Netlist files (exported from Eeschema)
+*.net
+*.lst
 
-*.drd
-*.drd.*
-
-*.info
-
-*.eps
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
